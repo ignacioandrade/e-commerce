@@ -43,6 +43,36 @@
     </div>
     <div class="container">
       <div class="row">
+        <div class="col text-end">
+          <div class="btn-group btn-group-toggle mb-4" data-bs-toggle="buttons">
+            <button id="sortAscPrice"style="background: white;">$ <img src="img/PRECIO DESCENDENTE.jpg" alt="Precio-ascendente" width="40px">  </button>
+            <button id="sortDescPrice" style="background: white;">$ <img src="img/PRECIO ASCENDENTE.jpg" alt="Precio-descendente" width="40px"></button>
+            <button id="relevance"style="background: white;">Relevancia <img src="img/FLECHA ABAJO.jpg" alt="Relevancia-descendente" width="30px"></button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-6 col-md-12 mb-1 container">
+          <div class="row container p-0 m-0">
+            <div class="col">
+              <p class="font-weight-normal text-end my-2">Precio</p>
+            </div>
+            <div class="col">
+              <input class="form-control"  placeholder="min." id="filterMin">
+            </div>
+            <div class="col">
+              <input class="form-control" placeholder="máx." id="filterMax">
+            </div>
+            <div class="col-3 p-0">
+              <div class="btn-group" role="group">
+                <button class="btn btn-light btn-block" id="filterPrice">Filtrar</button>
+                <button class="btn btn-link btn-sm" id="clearRangeFilter">Limpiar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    <div class="container">
+      <div class="row">
           <div class="list-group" id="car-list-container">
 
           </div>

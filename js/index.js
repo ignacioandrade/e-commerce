@@ -11,4 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
         localStorage.setItem("catID", 103);
         window.location = "products.html"
     });
+    document.getElementById("email-address").innerHTML = (localStorage.getItem("text"));
 });
+
+
